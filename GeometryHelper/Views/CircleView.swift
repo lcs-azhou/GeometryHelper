@@ -22,7 +22,6 @@ struct CircleView: View {
             
             Text("\(currentCircle.diameter)")
                 .font(.largeTitle)
-            
         }.padding()
         
     }
