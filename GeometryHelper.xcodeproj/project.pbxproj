@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		79970D8C2B06547F0033B2C2 /* GeometryHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970D8B2B06547F0033B2C2 /* GeometryHelperApp.swift */; };
-		79970D8E2B06547F0033B2C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970D8D2B06547F0033B2C2 /* ContentView.swift */; };
 		79970D902B0654810033B2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79970D8F2B0654810033B2C2 /* Assets.xcassets */; };
 		79970D932B0654810033B2C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79970D922B0654810033B2C2 /* Preview Assets.xcassets */; };
+		79970D9D2B0655790033B2C2 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79970D9C2B0655790033B2C2 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79970D882B06547F0033B2C2 /* GeometryHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79970D8B2B06547F0033B2C2 /* GeometryHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryHelperApp.swift; sourceTree = "<group>"; };
-		79970D8D2B06547F0033B2C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79970D8F2B0654810033B2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79970D922B0654810033B2C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79970D9C2B0655790033B2C2 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				79970D8B2B06547F0033B2C2 /* GeometryHelperApp.swift */,
-				79970D8D2B06547F0033B2C2 /* ContentView.swift */,
+				79970D9B2B0655240033B2C2 /* Model */,
+				79970D9A2B0655120033B2C2 /* Views */,
 				79970D8F2B0654810033B2C2 /* Assets.xcassets */,
 				79970D912B0654810033B2C2 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				79970D922B0654810033B2C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79970D9A2B0655120033B2C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79970D9C2B0655790033B2C2 /* CircleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		79970D9B2B0655240033B2C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79970D8E2B06547F0033B2C2 /* ContentView.swift in Sources */,
+				79970D9D2B0655790033B2C2 /* CircleView.swift in Sources */,
 				79970D8C2B06547F0033B2C2 /* GeometryHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
