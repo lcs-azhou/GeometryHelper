@@ -17,7 +17,12 @@ struct CircleView: View {
         VStack {
             Text("\(currentCircle.radius)")
                 .font(.largeTitle)
+            
             Slider(value: $currentCircle.radius, in: 0...100)
+            
+            Text("\(currentCircle.diameter)")
+                .font(.largeTitle)
+            
         }.padding()
         
     }
